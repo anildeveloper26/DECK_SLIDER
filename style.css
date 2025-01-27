@@ -1,0 +1,49 @@
+.name {
+    background: linear-gradient(275deg, rgba(255, 0, 0, 0.80) 25.06%, rgba(180, 90, 171, 0.80) 33.92%, rgba(0, 213, 167, 0.80) 39.78%, rgba(6, 116, 183, 0.80) 47.4%);
+    background-clip: text;
+    color: transparent;
+}
+
+.gradient {
+    background: linear-gradient(273deg, rgba(255, 0, 0, 0.80) 30.33%, rgba(180, 90, 171, 0.80) 41.77%, rgba(0, 213, 167, 0.80) 49.34%, rgba(6, 116, 183, 0.80) 59.18%);
+    background-clip: text;
+    color: transparent;
+}
+
+.agile,
+.balence {
+    background: linear-gradient(276deg, rgba(255, 0, 0, 0.80) 32.42%, rgba(180, 90, 171, 0.80) 42.68%, rgba(0, 213, 167, 0.80) 49.47%, rgba(6, 116, 183, 0.80) 58.29%);
+    background-clip: text;
+    color: transparent;
+}
+
+* {
+    font-family: 'Satoshi', sans-serif;
+}
+
+.background {
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.left_section {
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: #250707;
+}
+
+.right_section {
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: #091E1C;
+}
+
+.challenges {
+    background: linear-gradient(90deg, #FF6C4A 0%, #FDB914 11.42%, #FFA1D8 24.09%);
+    background-clip: text;
+    color:transparent;
+}
+.solutions{
+    background: linear-gradient(90deg, #F0D 0%, #F5CF78 8.77%, #34A943 19.45%);
+background-clip: text;
+color:transparent;
+}
