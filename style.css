@@ -38,15 +38,16 @@
 }
 
 .challenges {
-    background: linear-gradient(90deg, #FF6C4A 0%, #FDB914 11.42%, #FFA1D8 24.09%);
+    background: linear-gradient(90deg, #FF6C4A 10%, #FDB914 70%, #FFA1D8 20%);
     background-clip: text;
     color: transparent;
 }
 
 .solutions {
-    background: linear-gradient(90deg, #F0D 0%, #F5CF78 8.77%, #34A943 19.45%);
+    background: linear-gradient(90deg, #F0D 10%, #F5CF78 70%, #34A943 20%);
     background-clip: text;
-    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .case_study h1 {
