@@ -338,7 +338,7 @@
           </section>
         </div>
         <div class="swiper-slide">
-          <section class="bg-black h-screen pt-5">
+          <section class="bg-black h-screen xl:pt-5 2.5xl:pt-0.5">
             <div class="fixed top-0 right-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -408,7 +408,7 @@
                   </div>
                 </div>
                 <div
-                  class="flex h-screen justify-between gap-7 pt-16 pb-20 h-[40%] w-full"
+                  class="flex h-screen justify-between gap-7 xl:pt-0 2.5xl:pt-16 pb-20 h-[40%] w-full"
                 >
                   <!-- CARD - 1  -->
                   <div
@@ -895,7 +895,7 @@
               <!-- background image -->
               <div class="flex flex-col h-screen gap-8">
                 <!-- top section -->
-                <div class="flex gap-16  md:pt-[3%] 3xl:pt-0 w-full h-1/2">
+                <div class="flex gap-16  md:pt-[3%] 2.5xl:pt-0 w-full h-1/2">
                   <!-- top-left -->
                   <div
                     class="text-gray-100 flex flex-col gap-7 justify-center w-1/2"
@@ -1212,7 +1212,7 @@
         </div>
         <div class="swiper-slide">
           <section class="w-full px-14 pt-16 bg-black h-screen">
-            <div class="fixed top-0 right-0">
+            <div class="fixed top-0 right-0 z-50">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="808"
@@ -1345,19 +1345,21 @@
                     </p>
                   </div>
                   <div
-                    class="grid grid-rows-4 grid-cols-2 text-white text-center gap-x-6 gap-y-6 3xl:text-4xl 4xl:text-6xl"
+                    class="grid grid-rows-4 grid-cols-2 text-white text-center items-center gap-x-6 gap-y-6 3xl:text-4xl 4xl:text-6xl"
                   >
+                  <div class="relative text-2xl p-[2px] bg-gradient-to-r from-red-600 to-blue-600 rounded-lg bg-cover col-span-2 ">
                     <div
-                      class="flex p-6 col-span-2 items-center justify-between bg-clip-border border-2 border-t-red-500 border-b-blue-500 border-l-red-500 border-r-blue-500 rounded-lg"
+                      class="gradient_border text-center flex col-span-2 items-center justify-between  rounded-lg"
                     >
                       <span>Agile</span>
                       <span>&</span>
                       <span>Discipline</span>
+                      </div>
                     </div>
-                    <div class="p-6 border-2 border-red-600 rounded-lg">
+                    <div class="p-6 border-2 border-red-600 rounded-lg ">
                       <div>Short Cycles</div>
                     </div>
-                    <div class="p-6 border-2 border-blue-600 rounded-lg">
+                    <div class="p-6 border-2 border-blue-600 rounded-lg text-">
                       <div>Cont. Integration</div>
                     </div>
                     <div class="p-6 border-2 border-red-600 rounded-lg">
@@ -1397,7 +1399,7 @@
         </div>
         <div class="swiper-slide">
           <section
-            class="text-white px-5 2.5xl:px-10 pt-10 flex flex-col gap-5 w-full h-screen bg-black 3xl:pt-40"
+            class="text-white px-4 2.5xl:px-10 pt-10 flex flex-col gap-5 w-full h-screen bg-black 3xl:pt-40"
           >
             <div class="fixed top-0 right-0 z-1">
               <svg
@@ -1451,7 +1453,7 @@
               </svg>
             </div>
             <!-- top section -->
-            <section class="z-50 h-[40vh]">
+            <section class="z-50 h-">
               <div class="flex flex-col gap-4">
                 <div class="flex flex-col items-center">
                   <svg
@@ -1576,10 +1578,10 @@
                 </div>
                 <div class="flex justify-between w-full">
                   <!-- left section -->
-                  <div class="xl:w-[50%] 2.5xl:w-auto">
+                  <div class="xl:w-[41%] 2.5xl:w-auto">
                     <div>
                       <p
-                        class="text-white opacity-70 max-w-[610px] 3xl:max-w-[1000px] text-base pb-5 3xl:text-4xl"
+                        class="text-white opacity-70 max-w-[610px] 3xl:max-w-[1000px] text-xs xl:text-sm pb-5 3xl:text-4xl"
                       >
                         A leading HRtech SaaS platform in the US and India aimed
                         to make level-one interviews inclusive and fair. We
@@ -1589,7 +1591,7 @@
                       </p>
                     </div>
                     <div class="flex flex-col gap-3 3xl:text-4xl">
-                      <div class="flex gap-3 text-sm">
+                      <div class="flex xl:gap-1.5 2.5xl:gap-3 xl:text-xs 2.5xl:text-base">
                         <div class="bg-[#1E6EB3] px-3 py-1.5 rounded-full">
                           Deepgram API Integration
                         </div>
@@ -1600,7 +1602,7 @@
                           Microservice architecture
                         </div>
                       </div>
-                      <div class="flex gap-3 text-sm">
+                      <div class="flex xl:gap-1.5 2.5xl:gap-3 xl:text-xs 2.5xl:text-base">
                         <div
                           class="bg-[#F3ED32] px-3 py-1.5 rounded-full text-black"
                         >
@@ -1621,8 +1623,8 @@
                     </div>
                   </div>
                   <!-- right section -->
-                  <div class=" xl:w-[51%] 2.5xl:w-auto">
-                    <div class="flex gap-4 text-[#FFF] text-sm 3xl:text-4xl">
+                  <div class=" xl:w-[59%] 2.5xl:w-auto">
+                    <div class="flex xl:gap-2 2.5xl:gap-4 text-[#FFF] xl:text-xs 2.5xl:text-sm 3xl:text-4xl">
                       <div class="background p-4 rounded-xl">
                         <div class="pb-2.5 border-b-gray-700 border-b w-48">
                           <h1>Industry</h1>
@@ -1653,10 +1655,45 @@
                             class="flex pt-2.5 justify-between gap-1.5 pb-1.5 border-b-gray-700 border-b"
                           >
                             <div class="pr-1.5 border-r-gray-700 border-r">
-                              <img
-                                src="assets/PAGE_14/Node.js_logo 2.png"
-                                alt=""
-                              />
+                              <svg xmlns="http://www.w3.org/2000/svg" width="54" height="51" viewBox="0 0 54 51" fill="none">
+                                <mask id="mask0_595_14514" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="5" y="1" width="43" height="48">
+                                  <path d="M25.4965 1.30364L6.68376 12.1621C5.97912 12.5685 5.54688 13.3187 5.54688 14.1296V35.8618C5.54688 36.6732 5.97912 37.4229 6.68376 37.8293L25.4978 48.6962C26.2011 49.1013 27.0683 49.1013 27.7707 48.6962L46.5816 37.8293C47.2827 37.4229 47.7158 36.6727 47.7158 35.8618V14.1296C47.7158 13.3187 47.2827 12.5685 46.5772 12.1621L27.7689 1.30364C27.4162 1.10136 27.0232 1 26.6302 1C26.2373 1 25.8443 1.10136 25.4916 1.30364" fill="white"/>
+                                </mask>
+                                <g mask="url(#mask0_595_14514)">
+                                  <path d="M66.7289 10.3184L13.718 -15.6658L-13.4629 39.7829L39.5467 65.7683L66.7289 10.3184Z" fill="url(#paint0_linear_595_14514)"/>
+                                </g>
+                                <mask id="mask1_595_14514" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="6" y="1" width="42" height="48">
+                                  <path d="M6.00195 37.2414C6.18191 37.475 6.40696 37.6773 6.67176 37.8291L22.8097 47.1506L25.4979 48.6956C25.8998 48.9278 26.3579 49.0261 26.808 48.9926C26.9581 48.9805 27.1081 48.9524 27.2546 48.9109L47.0961 12.5804C46.9443 12.4152 46.7666 12.2768 46.5674 12.1607L34.2492 5.04728L27.7377 1.30081C27.5529 1.19364 27.3524 1.11773 27.1483 1.06415L6.00195 37.2414Z" fill="white"/>
+                                </mask>
+                                <g mask="url(#mask1_595_14514)">
+                                  <path d="M-16.9121 18.0035L20.5191 68.6648L70.0225 32.0905L32.589 -18.5694L-16.9121 18.0035Z" fill="url(#paint1_linear_595_14514)"/>
+                                </g>
+                                <mask id="mask2_595_14514" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="6" y="1" width="42" height="48">
+                                  <path d="M26.4003 1.01215C26.0846 1.0434 25.776 1.14164 25.4916 1.30329L6.73242 12.1305L26.9607 48.9745C27.242 48.9343 27.5188 48.8406 27.7689 48.6959L46.5816 37.8289C47.1621 37.4922 47.5595 36.9224 47.6801 36.2767L27.0589 1.0492C26.9071 1.01929 26.7553 1.00366 26.599 1.00366C26.5365 1.00366 26.4739 1.00678 26.4114 1.01259" fill="white"/>
+                                </mask>
+                                <g mask="url(#mask2_595_14514)">
+                                  <path d="M6.73242 1.00366V48.9754H47.6725V1.00366H6.73242Z" fill="url(#paint2_linear_595_14514)"/>
+                                </g>
+                                <defs>
+                                  <linearGradient id="paint0_linear_595_14514" x1="40.2075" y1="-2.71456" x2="13.0285" y2="52.7304" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0.3" stop-color="#3E863D"/>
+                                    <stop offset="0.5" stop-color="#55934F"/>
+                                    <stop offset="0.8" stop-color="#5AAD45"/>
+                                  </linearGradient>
+                                  <linearGradient id="paint1_linear_595_14514" x1="2.0278" y1="43.6246" x2="51.5331" y2="7.04601" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0.57" stop-color="#3E863D"/>
+                                    <stop offset="0.72" stop-color="#619857"/>
+                                    <stop offset="1" stop-color="#76AC64"/>
+                                  </linearGradient>
+                                  <linearGradient id="paint2_linear_595_14514" x1="6.74623" y1="24.9909" x2="47.6803" y2="24.9909" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0.16" stop-color="#6BBF47"/>
+                                    <stop offset="0.38" stop-color="#79B461"/>
+                                    <stop offset="0.47" stop-color="#75AC64"/>
+                                    <stop offset="0.7" stop-color="#659E5A"/>
+                                    <stop offset="0.9" stop-color="#3E863D"/>
+                                  </linearGradient>
+                                </defs>
+                              </svg>
                             </div>
                             <div class="pr-1.5 border-r-gray-700 border-r">
                               <svg
@@ -1705,10 +1742,18 @@
                               </svg>
                             </div>
                             <div class="pr-1.5 border-r-gray-700 border-r">
-                              <img
-                                src="assets/PAGE_14/postgresql-ar21 1.png"
-                                alt=""
-                              />
+                              <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54" fill="none">
+                                <path d="M37.3643 35.6528C37.6188 33.5334 37.5426 33.2232 39.1218 33.567L39.5095 33.6018C40.7243 33.6574 42.31 33.408 43.2444 32.9738C45.2514 32.0433 46.4416 30.4873 44.463 30.8957C39.9476 31.8262 39.6375 30.2986 39.6375 30.2986C44.4062 23.2244 46.3964 14.244 44.6776 12.047C39.9864 6.05056 31.8628 8.88723 31.7284 8.9609L31.6857 8.96865C30.794 8.78385 29.795 8.67141 28.6746 8.65461C26.6327 8.62101 25.0819 9.18964 23.8929 10.0826C23.8929 10.0826 9.40328 4.11206 10.065 17.5911C10.2071 20.4575 14.1746 39.2842 18.9045 33.598C20.6337 31.5173 22.3034 29.7597 22.3034 29.7597C23.1331 30.3116 24.1126 30.592 25.1685 30.4912L25.2486 30.4227C25.2244 30.6926 25.2353 30.9646 25.2809 31.2317C24.0622 32.5925 24.4202 32.8342 21.9855 33.3343C19.521 33.8422 20.9684 34.7469 21.9144 34.9834C23.0607 35.2703 25.7138 35.676 27.5037 33.1676L27.4327 33.4545C27.9108 33.8371 27.8785 36.2033 27.9457 37.8937C28.0129 39.5841 28.1266 41.1633 28.4717 42.0938C28.8167 43.0243 29.2212 45.4203 32.4262 44.734C35.1014 44.1602 37.1484 43.3357 37.3345 35.658" fill="white"/>
+                                <path d="M37.3642 35.6528C37.6188 33.5334 37.5426 33.2232 39.1218 33.567L39.5095 33.6018C40.7243 33.6574 42.31 33.408 43.2444 32.9738C45.2514 32.0433 46.4416 30.4873 44.463 30.8957C39.9476 31.8262 39.6375 30.2986 39.6375 30.2986C44.4062 23.2244 46.3964 14.244 44.6776 12.047C39.9864 6.05056 31.8628 8.88723 31.7284 8.9609L31.6857 8.96865C30.794 8.78385 29.795 8.67141 28.6746 8.65461C26.6327 8.62101 25.0819 9.18964 23.8929 10.0826C23.8929 10.0826 9.40328 4.11206 10.065 17.5911C10.2071 20.4575 14.1746 39.2842 18.9045 33.598C20.6337 31.5173 22.3034 29.7597 22.3034 29.7597C23.1331 30.3116 24.1126 30.592 25.1685 30.4912L25.2486 30.4227C25.2244 30.6926 25.2353 30.9646 25.2809 31.2317C24.0622 32.5925 24.4202 32.8342 21.9855 33.3343C19.521 33.8422 20.9684 34.7469 21.9144 34.9834C23.0607 35.2703 25.7138 35.676 27.5037 33.1676L27.4327 33.4545C27.9108 33.8371 27.8785 36.2033 27.9457 37.8937C28.0129 39.5841 28.1266 41.1633 28.4717 42.0938C28.8167 43.0243 29.2212 45.4203 32.4262 44.734C35.1014 44.1602 37.1484 43.3357 37.3345 35.658" stroke="white" stroke-width="3.35749"/>
+                                <path d="M44.4741 30.8955C39.9587 31.826 39.6485 30.2985 39.6485 30.2985C44.4172 23.2242 46.4074 14.2438 44.6886 12.0455C39.9975 6.04909 31.8738 8.88577 31.7394 8.95943L31.6955 8.96719C30.8038 8.78238 29.8048 8.66995 28.6844 8.65315C26.6425 8.61955 25.0917 9.18818 23.9027 10.0812C23.9027 10.0812 9.41305 4.11059 10.0747 17.5896C10.2169 20.4586 14.1844 39.2828 18.9143 33.5965C20.6434 31.5159 22.3131 29.7583 22.3131 29.7583C23.1428 30.3101 24.1353 30.5905 25.177 30.4897L25.2584 30.4212C25.2325 30.6797 25.2454 30.9317 25.2907 31.2302C24.072 32.5911 24.43 32.8327 21.9952 33.3329C19.5307 33.8408 20.9782 34.7454 21.9241 34.9819C23.0704 35.2688 25.7236 35.6746 27.5135 33.1662L27.4424 33.4531C27.9206 33.8356 28.2566 35.9408 28.1984 37.847C28.1403 39.7532 28.1054 41.0649 28.4827 42.0884C28.8601 43.112 29.2323 45.4149 32.4373 44.7287C35.1124 44.1549 36.5004 42.6687 36.6929 40.19C36.8299 38.4273 37.1401 38.6883 37.1582 37.1142L37.4063 36.3686C37.6932 33.9778 37.4516 33.2088 39.0993 33.5681L39.487 33.603C40.7018 33.6585 42.2888 33.4091 43.2218 32.9749C45.2288 32.0444 46.4191 30.4884 44.4405 30.8968L44.4741 30.8955Z" fill="#417BA2"/>
+                                <path d="M27.7365 32.2654C27.6124 36.7111 27.7675 41.1864 28.2017 42.2746C28.636 43.3627 29.5677 45.4796 32.7714 44.792C35.4466 44.2182 36.421 43.1081 36.8423 40.6566L37.8309 32.8211M23.9112 9.9817C23.9112 9.9817 9.41119 4.05505 10.0832 17.5315C10.2124 20.4005 14.1928 39.226 18.9228 33.5397C20.6519 31.4719 22.2144 29.8307 22.2144 29.8307M31.7298 8.90002C31.2129 9.05768 39.794 5.76869 44.6635 12.0016C46.3823 14.1986 44.405 23.1803 39.6234 30.2546" stroke="white" stroke-width="1.11916" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M39.6248 30.2429C39.6248 30.2429 39.935 31.7717 44.4517 30.8399C46.429 30.4315 45.2271 31.9862 43.233 32.918C41.5866 33.6805 37.8957 33.8782 37.8337 32.8224C37.6786 30.0955 39.7773 30.9252 39.6248 30.2429ZM39.6248 30.2429C39.4878 29.6277 38.5496 29.0242 37.9293 27.5199C37.3865 26.2056 30.4983 16.1318 39.8419 17.6284C40.1844 17.5573 37.4046 8.74098 28.6607 8.59753C19.9167 8.45409 20.2062 19.3498 20.2062 19.3498" stroke="white" stroke-width="1.11916" stroke-linecap="round" stroke-linejoin="bevel"/>
+                                <path d="M25.289 31.1735C24.0704 32.5344 24.4283 32.776 21.9936 33.2762C19.5291 33.7841 20.9765 34.6887 21.9225 34.9252C23.0688 35.2121 25.722 35.6179 27.5118 33.1095C28.0572 32.347 27.5093 31.127 26.7597 30.8156C26.3979 30.6657 25.9132 30.4796 25.2916 31.1735H25.289Z" stroke="white" stroke-width="1.11916" stroke-linejoin="round"/>
+                                <path d="M25.2076 31.1502C25.0849 30.349 25.4713 29.3978 25.8835 28.2813C26.5038 26.609 27.9513 24.9367 26.792 19.633C25.9391 15.681 20.2037 18.8097 20.2011 19.3461C20.1985 19.8824 20.4596 22.0625 20.1055 24.602C19.6402 27.9155 22.212 30.7186 25.1753 30.4304" stroke="white" stroke-width="1.11916" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M23.8333 19.2672C23.8075 19.4507 24.1693 19.9392 24.6385 20.0038C25.1076 20.0684 25.5108 19.6872 25.5353 19.505C25.5599 19.3228 25.1993 19.1199 24.7289 19.0527C24.2585 18.9855 23.8566 19.0824 23.832 19.2659L23.8333 19.2672Z" fill="white" stroke="white" stroke-width="0.373485"/>
+                                <path d="M38.1441 18.8936C38.1699 19.0772 37.808 19.5657 37.3389 19.6303C36.8698 19.6949 36.4666 19.3137 36.4408 19.1314C36.4149 18.9492 36.7768 18.7463 37.2472 18.6817C37.7176 18.6171 38.1195 18.7114 38.1453 18.8949L38.1441 18.8936Z" fill="white" stroke="white" stroke-width="0.186096"/>
+                                <path d="M39.8303 17.6272C39.9079 19.0617 39.5202 20.0413 39.4723 21.5688C39.4 23.7916 40.5321 26.3337 38.8262 28.8796" stroke="white" stroke-width="1.11916" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
                             </div>
                             <div>
                               <svg

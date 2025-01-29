@@ -65,3 +65,8 @@
     background-clip: text;
     color: transparent;
 }
+
+.gradient_border {
+    padding: 24px;
+    background-color: black;
+}
