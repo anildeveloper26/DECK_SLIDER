@@ -71,7 +71,12 @@
     background-color: black;
 }
 
-
+@media screen and (min-width:1500px){
+    .gradient_border {
+        padding: 22px;
+        background-color: black;
+    }
+}
 
 .third_section {
     background-color: gray;

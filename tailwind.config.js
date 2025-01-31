@@ -4,7 +4,7 @@ tailwind.config = {
       screens: {
          "xl": "1152px",
         '2xl': "1280px",
-        "2.5xl":"1500px",
+        "2.5xl":"1600px",
         "3xl": "2560px",
         "4xl": "3840px",
       },
