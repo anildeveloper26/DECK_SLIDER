@@ -83,6 +83,15 @@
 }
 
 
+.svg_image{
+    background:  lightgray -25.519px -24.677px / 186.243% 186.243% no-repeat;
+}
+
+.left_section_pa{
+    border-radius: 16px;
+border: 1px solid rgba(255, 255, 255, 0.20);
+background: #071B25;
+}
 
 /* 3xl:text-3xl 4xl:text-6xl
 3xl:text-3xl 4xl:text-6xl
