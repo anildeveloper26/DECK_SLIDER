@@ -124,6 +124,10 @@
 
 .map{
     width:calc(100% - 30%);   
+    height: calc(100% - 20%);
+}
+.pin{
+    height: calc(100% - 90%);
 }
 /* 3xl:text-3xl 4xl:text-6xl
 3xl:text-3xl 4xl:text-6xl
